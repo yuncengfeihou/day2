@@ -1,7 +1,8 @@
 // 文件: public/extensions/third-party/day2/index.js
 
-import { extension_settings, loadExtensionSettings, renderExtensionTemplateAsync } from '../../../extensions.js';
-import { getContext, saveSettingsDebounced, eventSource, event_types, getTokenCountAsync } from '../../../../script.js'; // 确保 getTokenCountAsync 已导入
+import { extension_settings, loadExtensionSettings, getContext, renderExtensionTemplateAsync } from '../../../extensions.js';
+import { saveSettingsDebounced, eventSource, event_types } from '../../../../script.js';
+import { getTokenCountAsync } from '../../../tokenizers.js';
 
 (function () {
     // --- 插件基础信息 ---
