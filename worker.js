@@ -1,5 +1,5 @@
-// 文件: public/extensions/third-party/day1/worker.js
-// (在 index.js 中引用时路径为 'scripts/extensions/third-party/day1/worker.js')
+// 文件: public/extensions/third-party/day2/worker.js
+// (在 index.js 中引用时路径为 'scripts/extensions/third-party/day2/worker.js')
 
 const DB_NAME = 'SillyTavernDay1Stats';
 const STORE_NAME = 'dailyStats';
